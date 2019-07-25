@@ -1,5 +1,6 @@
-// html code
+# html code
 
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -69,9 +70,11 @@
     <script src="GitHubList.js"></script>
 </body>
 </html>
+```
 
-// css code
+# css code
 
+```
 * {
     margin: 0;
     padding: 0;
@@ -132,21 +135,6 @@ main>section {
     background: green;
 }
 
-/* .item a {
-    width: 100%;
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
-    display: flex;
-    align-items: center;
-} 
-
-.item a .order {
-    padding: 0 5px;
-    background: green;
-    color: #fff;
-    text-align: center;
-} */
-
 .item .detail {
     padding-left: 10px;
 }
@@ -160,10 +148,6 @@ main>section {
     width: 50px;
     border-radius: 3px;
 }
-
-/* .item .user-name {
-    height: 50px;
-} */
 
 #search {
     padding-top: 10px;
@@ -237,9 +221,11 @@ footer>div.active {
 footer>div>span {
     display: block;
 }
+```
 
-// js code
+# js code
 
+```
 var Paging = {
     init: function() {
         this.$element = $('footer>div')
@@ -504,4 +490,4 @@ var App = {
 }
 
 App.init()
-
+```
