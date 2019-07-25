@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GitHub榜单</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1310238_q58n1opcu2.css">
+    <link rel="stylesheet" href="GitHubList.css">
+</head>
+<body>
+    <main>
+        <section id="repo-board">
+            <div class="container">
+                <!-- <div class="item">
+                    <a href="#">
+                        <div class="order"><span>1</span></div>
+                        <div class="detail">
+                            <h2>bootstrap</h2>
+                            <div class="description">The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.</div>
+                            <div class="star-collect">134797 star</div>
+                        </div>
+                    </a>
+                </div> -->
+            </div>
+            <div class="loading">
+                <span class="iconfont icon-loading"></span>
+            </div>
+        </section>
+        <section id="user-board">
+            <div class="container">
+
+            </div>  
+            <div class="loading">
+                <span class="iconfont icon-loading"></span>
+            </div>
+        </section>
+        <section id="search">
+            <div class="wrap">
+                <div class="search-area">
+                    <input type="text" placeholder="Search repos">
+                    <span class="button">Search</span>
+                </div>
+                <div class="search-result">
+
+                </div>
+            </div>
+            <div class="loading">
+                <span class="iconfont icon-loading"></span>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="active">
+            <span class="iconfont icon-top"></span><span>Top Repos</span>
+        </div>
+        <div>
+            <span class="iconfont icon-user"></span><span>Top Users</span>
+        </div>
+        <div>
+            <span class="iconfont icon-search"></span><span>Search</span>
+        </div>
+    </footer>
+
+    <script src="GitHubList.js"></script>
+</body>
+</html>
