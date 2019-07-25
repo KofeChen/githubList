@@ -94,7 +94,7 @@ var RepoBoard = {
         var $node = $(tpl)
         $node.find('.order span').text((this.page - 1)*30+index+1)
         $node.find('.detail h2').text(item.name)
-        $node.find('item a').attr('href', item.html_url)
+        $node.find('a').attr('href', item.html_url)
         $node.find('.detail .description').text(item.description)
         $node.find('.detail .star-collect').text(item.stargazers_count)
         return $node
